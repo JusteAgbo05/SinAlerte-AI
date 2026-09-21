@@ -1,4 +1,4 @@
-# SìnAlerte AI — maquette interactive
+# SìnAlerte AI maquette interactive
 
 Cette maquette React présente le parcours MVP décrit dans le TDR :
 
