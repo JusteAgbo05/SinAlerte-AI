@@ -3,7 +3,7 @@ import { createInertiaApp } from '@inertiajs/vue3';
 import '../css/sinalerte.css';
 
 createInertiaApp({
-    title: (title) => (title ? `${title} · SìnAlerte AI` : 'SìnAlerte AI'),
+    title: (title) => (title ? `${title} · SìnAlerte FIX` : 'SìnAlerte FIX'),
     resolve: (name) => {
         const pages = import.meta.glob('./Pages/**/*.vue', { eager: true });
         return pages[`./Pages/${name}.vue`];
@@ -13,5 +13,5 @@ createInertiaApp({
             .use(plugin)
             .mount(el);
     },
-    progress: { color: '#087c72' },
+    progress: { color: '#0b63d6' },
 });

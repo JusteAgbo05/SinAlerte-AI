@@ -31,7 +31,7 @@ function logout() {
         <aside class="side">
             <Link href="/" class="brand">
                 <span class="brand-mark"><Icon name="drop" :size="22" /></span>
-                <span>SìnAlerte <b>AI</b></span>
+                <span>SìnAlerte <b>FIX</b></span>
             </Link>
 
             <div class="operator-label">ESPACE OPÉRATEUR</div>

@@ -1,0 +1,13 @@
+Skill « ui-ux-pro-max » (installé pour le projet SìnAlerte AI)
+
+Origine     : https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
+Commit      : 56ea9cf174ed86786187daa9de0e6247cb0747e4 (2026-10-15)
+Version     : 2.15.0
+Licence     : MIT (voir LICENSE dans ce dossier)
+
+Différences avec l'original :
+- SKILL.md : les commandes utilisent le chemin du projet
+  (python3 .claude/skills/ui-ux-pro-max/scripts/search.py) au lieu de ${CLAUDE_PLUGIN_ROOT} ;
+  deux phrases adaptées en conséquence.
+- Le dossier scripts/tests n'est pas inclus.
+- LICENSE et ce fichier ont été ajoutés.

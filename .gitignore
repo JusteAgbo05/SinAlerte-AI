@@ -25,3 +25,7 @@ _ide_helper.php
 Homestead.json
 Homestead.yaml
 Thumbs.db
+.sinalerte-backup/
+
+# Python (skill ui-ux-pro-max)
+__pycache__/

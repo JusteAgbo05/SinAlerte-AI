@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#067b70">
+        <meta name="theme-color" content="#0b63d6">
         <title inertia>SìnAlerte AI</title>
 
         @vite(['resources/js/app.js'])

@@ -11,7 +11,7 @@ const open = ref(false);
         <header class="topbar">
             <Link href="/" class="brand">
                 <span class="brand-mark"><Icon name="drop" :size="24" /></span>
-                <span>SìnAlerte <b>AI</b></span>
+                <span>SìnAlerte <b>FIX</b></span>
             </Link>
 
             <nav class="desktop-nav">
@@ -41,6 +41,6 @@ const open = ref(false);
 
         <slot />
 
-        <footer>© 2026 SìnAlerte AI <span>•</span> Protéger chaque goutte, ensemble.</footer>
+        <footer>© 2026 SìnAlerte FIX <span>•</span> Protéger chaque goutte, ensemble.</footer>
     </main>
 </template>

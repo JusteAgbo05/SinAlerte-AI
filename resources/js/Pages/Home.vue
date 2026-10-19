@@ -8,19 +8,24 @@ const steps = [
     { n: '02', title: 'Nous priorisons', text: "Le système évalue l'urgence : gravité, photo, signalements voisins.", icon: 'chart' },
     { n: '03', title: 'Ils interviennent', text: 'Une équipe est affectée et vous pouvez suivre la suite avec votre code.', icon: 'wrench' },
 ];
+
+// Image de fond de l'accueil : un technicien en intervention sur une canalisation d'eau.
+// Le fichier est dans public/images/. Pour mettre une vraie photo à la place, déposez-la dans
+// public/images/ et changez le nom ci-dessous (par exemple '/images/technicien-forage.jpg').
+const HERO_IMAGE = '/images/accueil-technicien.svg';
+const heroStyle = { '--hero-image': `url('${HERO_IMAGE}')` };
 </script>
 
 <template>
     <PublicLayout>
         <Head title="Signaler une fuite d'eau" />
 
-        <section class="hero">
+        <section class="hero" :style="heroStyle">
             <div class="hero-copy">
                 <div class="eyebrow"><span></span> Ensemble, préservons l'eau</div>
                 <h1>Une fuite signalée.<br /><em>Une action lancée.</em></h1>
                 <p>
-                    Une plateforme simple pour signaler les fuites d’eau et aider les équipes à
-                    intervenir là où c’est le plus urgent.
+                    SinAlerte FIX est une plateforme Simple pour optimiser la gestion durable des ressources en eau et des equipements d'approvisionnement.
                 </p>
                 <div class="hero-actions">
                     <Link href="/signaler" class="primary">
@@ -38,14 +43,6 @@ const steps = [
             </div>
 
             <div class="hero-visual" aria-hidden="true">
-                <div class="halo"></div>
-                <div class="leak-photo">
-                    <div class="photo-label"><span class="pulse"></span> Signalement actif</div>
-                    <div class="water-ripple r1"></div>
-                    <div class="water-ripple r2"></div>
-                    <div class="pipe"></div>
-                    <div class="puddle"></div>
-                </div>
                 <div class="floating-card score">
                     <span class="mini-icon coral"><Icon name="alert" :size="16" /></span>
                     <div><small>Priorité automatique</small><strong>Intervention rapide</strong></div>
